@@ -1,0 +1,31 @@
+How will I approach this next task?
+  - I'll try giving myself deadlines this time, like Cal Newport suggested.
+  - I will STOP this project, no matter its state, once December 6th rolls around.
+
+*************************** DECEMBER 5TH, 23:59 DEADLINE **************************************************
+
+Now that the deadline is set, I need to break it down into smaller deadlines, estimating (REMEMBER: make your estimates AT LEAST 1.5x as long as you normally would, perhaps even twice as slow; life gets in the way and that's ok) how long each smaller task will take.
+
+Okay, now to break up the project into smaller, manageable tasks.
+
+1. Setting up the repository
+2. Initializing files and getting them to work
+3. Downloading both data required for the project and logging them to the console to ensure they work
+4. Getting a rough idea for how rendering the different states of the US will work
+
+  Past this task, I might wanna re-evaluate my approach, since I don't know how long it'll take me to render this data or how even to approach it. So I'll just write down the tasks that I KNOW I need to do, and add any extra tasks that pop up afterward, as well as sort out in which order I'll tackle them.
+
+5+. Render the states on the canvas.
+5+. Color each state dynamically.
+5+. Render the legend for the different states.
+5+. Display the currently hovered state's information with a tooltip.
+5+. BONUS: think of and implement a different way to display the information besides a tooltip positioned near the user's cursor.
+5+. Add a title, source, and my github link.
+5+. BONUS: allow the user to choose from different color schemes (more accessible for colorblind individuals)
+
+Since I don't know the full extent of this project yet, since I haven't worked with geographical data before, I can't schedule the whole project yet. I'll just have to tackle the first few tasks I KNOW I have to do as quickly as possible.
+
+CURRENT TASK/DEADLINE: First four tasks, tomorrow MAX
+- I can be more specific, dividing time up between these four tasks.
+CURRENT TASK: finish setting up the repo
+DEADLINE: 16:00 TODAY
