@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A graph of US county educational attainment built with topojson and d3.">
     <title>Educational Attainment Graph</title>
   </head>
   <body>
     <!-- Need three top elements to fill the body's grid row template. -->
-    <header></header>
+    <header>
+      <h1>US Educational Attainment</h1>
+    </header>
 
-    <div class="content"></div>
-    
-    <footer></footer>
+    <!-- div.content surrounding the canvas in case I need to append extra elements on the svgs. -->
+    <div class="pageContent">
+      <h2>
+        Percentage of County Populations 25 or Older with a Bachelor's Degree or
+        Higher, 2010-2014
+      </h2>
+      <div class="canvasContainer">
+        <div class="tooltip"></div>
+        <svg class="canvas"></svg>
+      </div>
+      <p class="notes">
+        <span class="color-toggle">
+          <strong>Click</strong> to toggle colors.
+        </span>
+        <span class="legend-tip">
+          Legend rect controls:<br />
+          <strong>click</strong>
+          to toggle highlight,
+          <br />
+          <strong>shift</strong>
+          +
+          <strong>click</strong>
+          to toggle fade,
+          <br />
+          <strong>ctrl</strong>
+          +
+          <strong>shift</strong>
+          +
+          <strong>click</strong>
+          to fade all except current.
+        </span>
+      </p>
+    </div>
 
+    <footer>
+      By
+      <a target="_blank" href="https://github.com/Solarc117" rel="noreferrer"
+        >Carlos Bernal</a
+      >. Globals d3 and topojson. Data and concept by
+      <a
+        target="_blank"
+        href="https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-choropleth-map"
+        rel="noreferrer"
+        >fCC.</a
+      >
+    </footer>
+
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
